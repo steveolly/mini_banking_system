@@ -1,0 +1,140 @@
+{
+  "accounts": [
+    {
+      "name": "steveolly",
+      "number": "1000000001",
+      "balance": "500950300.00"
+    },
+    {
+      "name": "samuel",
+      "number": "1000000002",
+      "balance": "30000000.00"
+    }
+  ],
+  "transactions": [
+    {
+      "id": "8499c9757bdd446885ad7c08e8c6e2ed",
+      "type": "transfer",
+      "amount": "30000000.00",
+      "account": {
+        "name": "steveolly",
+        "number": "1000000001",
+        "balance": "500950300.00"
+      },
+      "otherAccount": {
+        "name": "samuel",
+        "number": "1000000002",
+        "balance": "30000000.00"
+      },
+      "createdAt": "2026-09-29T12:42:32.926738+00:00"
+    },
+    {
+      "id": "10329c915eba4f6c88b69ce0da5b080a",
+      "type": "transfer",
+      "amount": "4250000.00",
+      "account": {
+        "name": "steveolly",
+        "number": "1000000002",
+        "balance": "0.00"
+      },
+      "otherAccount": {
+        "name": "steveolly",
+        "number": "1000000001",
+        "balance": "530950300.00"
+      },
+      "createdAt": "2026-09-29T12:01:07.321789+00:00"
+    },
+    {
+      "id": "a471589b209d48998c9d32a544d972ea",
+      "type": "transfer",
+      "amount": "50000300.00",
+      "account": {
+        "name": "steveolly",
+        "number": "1000000003",
+        "balance": "0.00"
+      },
+      "otherAccount": {
+        "name": "steveolly",
+        "number": "1000000001",
+        "balance": "526700300.00"
+      },
+      "createdAt": "2026-09-29T12:00:51.525603+00:00"
+    },
+    {
+      "id": "433199d5616144f78417b224f896f8d9",
+      "type": "withdrawal",
+      "amount": "50000.00",
+      "account": {
+        "name": "steveolly",
+        "number": "1000000002",
+        "balance": "4250000.00"
+      },
+      "otherAccount": null,
+      "createdAt": "2026-09-29T11:48:26.486863+00:00"
+    },
+    {
+      "id": "a1da9ed963fa40cc9dda6b0eb156637f",
+      "type": "transfer",
+      "amount": "3300000.00",
+      "account": {
+        "name": "steveolly",
+        "number": "1000000001",
+        "balance": "476700000.00"
+      },
+      "otherAccount": {
+        "name": "steveolly",
+        "number": "1000000002",
+        "balance": "4300000.00"
+      },
+      "createdAt": "2026-09-29T11:46:54.458041+00:00"
+    },
+    {
+      "id": "33c9d370544b4133a627375dbbdbee13",
+      "type": "withdrawal",
+      "amount": "20000000.00",
+      "account": {
+        "name": "steveolly",
+        "number": "1000000001",
+        "balance": "480000000.00"
+      },
+      "otherAccount": null,
+      "createdAt": "2026-09-29T11:46:35.390349+00:00"
+    },
+    {
+      "id": "06b6f06cb3a54a25a8c8f422f61d29d7",
+      "type": "deposit",
+      "amount": "50000300.00",
+      "account": {
+        "name": "steveolly",
+        "number": "1000000003",
+        "balance": "50000300.00"
+      },
+      "otherAccount": null,
+      "createdAt": "2026-09-29T11:46:16.542650+00:00"
+    },
+    {
+      "id": "ef5b8966ad1e4e5fb40566541a17b146",
+      "type": "deposit",
+      "amount": "1000000.00",
+      "account": {
+        "name": "steveolly",
+        "number": "1000000002",
+        "balance": "1000000.00"
+      },
+      "otherAccount": null,
+      "createdAt": "2026-09-29T11:46:04.248044+00:00"
+    },
+    {
+      "id": "a3a9ee873f9241f8b7e883ac8aef0f2f",
+      "type": "deposit",
+      "amount": "500000000.00",
+      "account": {
+        "name": "steveolly",
+        "number": "1000000001",
+        "balance": "500000000.00"
+      },
+      "otherAccount": null,
+      "createdAt": "2026-09-29T11:45:43.524005+00:00"
+    }
+  ]
+}
